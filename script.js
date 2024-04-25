@@ -32,3 +32,6 @@ function calculate(event) {
     }
   }
 
+  deleteBtn.addEventListener('click', () =>{
+    display.value.slice(0, -1);
+  });
