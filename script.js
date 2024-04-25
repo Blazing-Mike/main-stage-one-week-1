@@ -12,7 +12,6 @@ buttons.forEach(function(button) {
   
 // calculate function
 function calculate(event) {
-
     // current clicked buttons value
     const clickedButtonValue = event.target.value;
   
